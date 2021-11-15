@@ -1,0 +1,24 @@
+  .contacts {
+   border-radius: 0 10px 10px 0;
+   width: 300px;
+   background: #ffe6ac;
+   position: fixed;
+   top: 450px; left: -320px;
+   border-right: 20px solid #fc0;
+   padding: 10px;
+   transition: left 1s;
+  }
+  .contacts img {
+   float: left;
+   margin: 0 10px 0 0;
+  }
+  .contacts::after {
+    content: 'Contacts'; 
+    color: #000; 
+    position: absolute; 
+    right: -36px; bottom: 50px;
+    transform: rotate(-90deg); 
+   }
+  .contacts:hover {
+   left: 0; 
+  }
